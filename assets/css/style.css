@@ -64,8 +64,9 @@ button{font:inherit;color:inherit}
 .ico.teal{background:var(--teal-soft);color:var(--teal-d)}
 
 /* intro (graph paper) */
+
 .intro{position:relative;padding:clamp(44px,8vw,92px) 0 clamp(36px,6vw,64px)}
-.intro::before{content:"";position:absolute;inset:0 calc(var(--gut) * -1) 0 calc(var(--gut) * -1);background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:28px 28px;-webkit-mask-image:linear-gradient(180deg,#000 0%,transparent 92%);mask-image:linear-gradient(180deg,#000 0%,transparent 92%);opacity:.75;pointer-events:none}
+
 .intro>*{position:relative}
 .intro h1{font-size:clamp(36px,6vw,64px);line-height:1.04;letter-spacing:-.03em;max-width:12.5em}
 .intro .lead{margin-top:22px;font-size:clamp(17px,2vw,19.5px);color:var(--ink-2);max-width:31em}
