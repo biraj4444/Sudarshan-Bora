@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Sudarshan Bora</title>
+<meta name="description" content="Contact Sudarshan Bora by email or phone.">
+<meta name="theme-color" content="#1c1660">
+<meta property="og:title" content="Contact | Sudarshan Bora">
+<meta property="og:description" content="Contact Sudarshan Bora by email or phone.">
+<meta property="og:image" content="https://iili.io/oJaKAQ9.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="side">
+<div class="side-top" style="display:contents">
+<a class="who" href="index.html"><span class="avatar" data-photo></span><span class="who-t"><b>Sudarshan Bora</b><small>BSc Physics student</small></span></a>
+<button class="menu-btn" aria-controls="nav" aria-expanded="false" type="button">Menu</button>
+</div>
+<nav class="nav" id="nav" aria-label="Main"><a href="index.html">Home</a><a href="resume.html">Resume</a><a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html" aria-current="page">Contact</a></nav>
+<ul class="side-contact">
+<li data-show="email"><small>Email</small><a data-email href="#">email</a></li>
+<li data-show="phone"><small>Phone</small><a data-phone href="#">phone</a></li>
+<li data-show="location"><small>Location</small><span data-location></span></li>
+</ul>
+</aside>
+<div class="main"><main id="main" class="page">
+
+<section class="page-head"><h1>Contact me</h1><p>For opportunities, project questions or anything about my resume.</p></section>
+<div id="contact-empty" class="empty" hidden><b>Contact details are coming soon.</b><p style="margin-top:8px">Please check back shortly.</p></div>
+<div class="contact-grid">
+<dl class="clist">
+<div class="crow" data-show="email"><div><dt>Email</dt><dd><a data-email href="#">email</a></dd></div><div class="acts"><a class="btn small primary" data-email data-keep href="#">Write</a><button class="btn small" type="button" data-copy="email">Copy</button></div></div>
+<div class="crow" data-show="phone"><div><dt>Phone</dt><dd><a data-phone href="#">phone</a></dd></div><div class="acts"><a class="btn small primary" data-phone data-keep href="#">Call</a><button class="btn small" type="button" data-copy="phone">Copy</button></div></div>
+<div class="crow" data-show="location"><div><dt>Location</dt><dd data-location></dd></div></div>
+</dl>
+<form class="form" id="contact-form" data-show="email" novalidate>
+<h2>Send a message</h2><p class="hint">This opens your email app with the message ready to send.</p>
+<div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+<div class="field"><label for="f-email">Your email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="f-subject">Subject</label><input id="f-subject" name="subject" type="text"></div>
+<div class="field"><label for="f-msg">Message</label><textarea id="f-msg" name="message" required></textarea></div>
+<button class="btn primary" type="submit">Open email draft</button>
+<p class="note">Nothing is stored on this site. Your message goes only to the email app on your device.</p>
+</form>
+</div>
+
+<footer class="foot"><span>&copy; <span data-year>2026</span> Sudarshan Bora. All rights reserved.</span><span>Resume and portfolio</span></footer>
+</main></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
